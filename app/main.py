@@ -16,6 +16,12 @@ data = [
     }
 
 ]
-country = input("ingresa el país=> ").title()
-result = utils.population_by_country(data, country)
-print(result)
+def run():
+    country = input("ingresa el país=> ").title()
+    result = utils.population_by_country(data, country)
+    print(result)
+
+#si es ejecutado desde la terminal que ejecute el metodo run(), pero si es ejecutado
+#desde otro archivo no va a ejecutar el código.
+if __name__ == '__main__':
+    run()

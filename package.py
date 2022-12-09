@@ -5,6 +5,7 @@ print(func_3())
 
 """
 
+#esta es la mejor práctica para incluir paquetes
 import paquete
 print(paquete.URL)
 print(paquete.mod_1.func_3())

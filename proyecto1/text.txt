@@ -1,0 +1,2 @@
+	Hola, estoy escribiendo en un archivo
+	para salir es esc + shift + zz
